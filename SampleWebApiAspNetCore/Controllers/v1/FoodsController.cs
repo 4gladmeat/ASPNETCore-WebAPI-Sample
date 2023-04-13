@@ -15,7 +15,7 @@ namespace SampleWebApiAspNetCore.Controllers.v1
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
     public class FoodsController : ControllerBase
-    {
+    {//test
         private readonly IFoodRepository _foodRepository;
         private readonly IMapper _mapper;
         private readonly ILinkService<FoodsController> _linkService;
